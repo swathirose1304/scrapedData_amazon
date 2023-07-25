@@ -1,0 +1,15 @@
+using python
+read amazon.html and parse it with beautifulsoup
+
+find all
+div with class="a-section a-spacing-base"
+
+for all the div
+try: find span with class="a-size-base-plus a-color-base a-text-normal" and store it in Names
+except: Names=""
+try: find span with class="a-price-whole" and store it in Prices
+except: Prices=""
+try: find span with class="a-icon-alt" and store it in Reviews
+except: Reviews=""
+
+open excel file and write Names, Prices, Reviews in it
